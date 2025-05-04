@@ -144,4 +144,13 @@ footer {
     width: 20px;
     height: 20px;
     filter: invert(1);
-  }
+}
+
+#about-me {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-style: normal;
+    color:#8b42df;
+    text-decoration: none;
+}
