@@ -97,6 +97,13 @@ footer {
     box-sizing: border-box;
 }
 
+.card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
 /* RESPONSIVE: Móviles y tablets */
 @media (max-width: 768px) {
     .card {
@@ -109,6 +116,10 @@ footer {
 .card:hover {
    transform: translateY(-3px);
    border: 2px solid #7bf1ff;
+}
+
+.card:hover .card-img{
+    border: 2px solid #7bf1ff;
 }
 
 .content {
@@ -152,40 +163,4 @@ footer {
     border: 2px solid #006eff;
     margin-bottom: 2rem;
     transition: transform 0.2s ease;
-}
-
-.tech-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-.tech {
-  background: #121212;
-  padding: 0.4rem 0.8rem;
-  border-radius: 0.5rem;
-  border: 1px solid #333;
-  font-size: 0.9rem;
-  font-weight: bold;
-  color: white;
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.tech img.icon {
-    width: 20px;
-    height: 20px;
-    filter: invert(1);
-}
-
-#about-me {
-    font-family: "Jersey 10", sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
-    font-style: normal;
-    color:#8b42df;
-    text-decoration: none;
 }
