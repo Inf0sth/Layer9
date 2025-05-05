@@ -28,7 +28,7 @@ header h1 span {
     font-weight: bold;
     font-size: 1.5em;
     font-style: normal;
-    color:#5a15ca;
+    color:#316ceb;
 }
 
 /* Sections */
@@ -88,7 +88,7 @@ footer {
     border-radius: 0.5rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     color: #e7e7e7;
-    border: 1px solid #006eff;
+    border: 1px solid #1576f6;
     margin: 0.5rem;
     transition: transform 0.2s ease;
     flex: 0 1 calc(30% - 1rem);
@@ -103,6 +103,8 @@ footer {
         flex: 0 1 100%;
         max-width: 100%;
         aspect-ratio: auto;
+        border: 2px solid #7bf1ff;
+        color: #ffffff;
     }
 }
 
@@ -119,7 +121,7 @@ footer {
     padding: 36px;
     border-radius: 24px;
     background: transparent;
-    color:  #2e88c4;
+    color:  #384fe4;
     z-index: 1;
     transition: all 0.64s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -152,33 +154,6 @@ footer {
     border: 2px solid #006eff;
     margin-bottom: 2rem;
     transition: transform 0.2s ease;
-}
-
-.tech-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-.tech {
-  background: #121212;
-  padding: 0.4rem 0.8rem;
-  border-radius: 0.5rem;
-  border: 1px solid #333;
-  font-size: 0.9rem;
-  font-weight: bold;
-  color: white;
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.tech img.icon {
-    width: 20px;
-    height: 20px;
-    filter: invert(1);
 }
 
 #about-me {
